@@ -1,0 +1,267 @@
+object Form1: TForm1
+  Left = 433
+  Height = 490
+  Top = 191
+  Width = 446
+  Caption = 'Form1'
+  ClientHeight = 490
+  ClientWidth = 446
+  LCLVersion = '1.8.2.0'
+  object E_preis: TEdit
+    Left = 228
+    Height = 23
+    Top = 76
+    Width = 209
+    TabOrder = 0
+  end
+  object E_geld: TEdit
+    Left = 228
+    Height = 23
+    Top = 108
+    Width = 209
+    TabOrder = 1
+  end
+  object A_zwei: TEdit
+    Left = 155
+    Height = 23
+    Top = 204
+    Width = 209
+    TabOrder = 2
+  end
+  object A_eins: TEdit
+    Left = 155
+    Height = 23
+    Top = 236
+    Width = 209
+    TabOrder = 3
+  end
+  object A_fuenfzig: TEdit
+    Left = 155
+    Height = 23
+    Top = 268
+    Width = 209
+    TabOrder = 4
+  end
+  object A_zwanzig: TEdit
+    Left = 155
+    Height = 23
+    Top = 300
+    Width = 209
+    TabOrder = 5
+  end
+  object A_zehn: TEdit
+    Left = 155
+    Height = 23
+    Top = 332
+    Width = 209
+    TabOrder = 6
+  end
+  object A_fuenfcent: TEdit
+    Left = 155
+    Height = 23
+    Top = 364
+    Width = 209
+    TabOrder = 7
+  end
+  object A_zweicent: TEdit
+    Left = 155
+    Height = 23
+    Top = 396
+    Width = 209
+    TabOrder = 8
+  end
+  object B_wechselgeld: TButton
+    Left = 128
+    Height = 43
+    Top = 145
+    Width = 195
+    Caption = 'Gib mir Wechselgeld!'
+    OnClick = B_wechselgeldClick
+    TabOrder = 9
+  end
+  object B_close: TButton
+    Left = 352
+    Height = 24
+    Top = 456
+    Width = 80
+    Caption = 'Beenden'
+    OnClick = B_closeClick
+    TabOrder = 10
+  end
+  object Label1: TLabel
+    Left = 4
+    Height = 28
+    Top = 8
+    Width = 185
+    Caption = 'Münzwechselgeld'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 4
+    Height = 18
+    Top = 40
+    Width = 211
+    Caption = 'Gebrochende Beträge mit ''.'' trennen.'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Height = 25
+    Top = 76
+    Width = 147
+    Caption = 'benötigter Betrag'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 49
+    Height = 25
+    Top = 108
+    Width = 166
+    Caption = 'gegebender Betrag'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 88
+    Height = 25
+    Top = 204
+    Width = 54
+    Caption = '2.00 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 88
+    Height = 25
+    Top = 236
+    Width = 54
+    Caption = '1.00 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 88
+    Height = 25
+    Top = 268
+    Width = 54
+    Caption = '0.50 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 88
+    Height = 25
+    Top = 300
+    Width = 54
+    Caption = '0.20 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 88
+    Height = 25
+    Top = 332
+    Width = 54
+    Caption = '0.10 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 88
+    Height = 25
+    Top = 364
+    Width = 54
+    Caption = '0.05 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 88
+    Height = 25
+    Top = 396
+    Width = 54
+    Caption = '0.02 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 88
+    Height = 25
+    Top = 424
+    Width = 54
+    Caption = '0.01 €'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object A_eincent: TEdit
+    Left = 155
+    Height = 23
+    Top = 426
+    Width = 209
+    TabOrder = 11
+  end
+end

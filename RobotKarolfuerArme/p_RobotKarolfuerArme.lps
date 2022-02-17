@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="p_RobotKarolfuerArme.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="u_robotkarolfuerarme.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="u_RobotKarolfuerArme"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="86"/>
+        <CursorPos X="33" Y="65"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9591"/>
+        <CursorPos Y="9617"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="u_robotkarolfuerarme.pas"/>
+        <Caret Line="86" Column="9" TopLine="55"/>
+      </Position1>
+      <Position2>
+        <Filename Value="u_robotkarolfuerarme.pas"/>
+        <Caret Line="76" TopLine="55"/>
+      </Position2>
+      <Position3>
+        <Filename Value="u_robotkarolfuerarme.pas"/>
+        <Caret Line="75" Column="69" TopLine="49"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
